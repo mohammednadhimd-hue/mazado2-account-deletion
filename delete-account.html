@@ -48,6 +48,23 @@
       color: #243332;
     }
 
+    .grace-period {
+      background-color: #E8F5E9;
+      border-left: 4px solid #6FD1A2;
+      padding: 16px;
+      margin: 24px 0;
+      border-radius: 4px;
+    }
+
+    .grace-period p {
+      margin: 0;
+      color: #243332;
+    }
+
+    .grace-period strong {
+      color: #2F7D5B;
+    }
+
     h2 {
       color: #2F7D5B;
       font-size: 20px;
@@ -132,7 +149,12 @@
     <h1>🗑️ Delete Your MazadO₂ Account</h1>
 
     <div class="warning">
-      <p><strong>⚠️ Warning:</strong> Deleting your account is permanent and cannot be undone. All your data will be permanently removed.</p>
+      <p><strong>⚠️ Warning:</strong> Deleting your account is permanent and cannot be undone after the grace period.</p>
+    </div>
+
+    <div class="grace-period">
+      <p><strong>🛡️ 7-Day Grace Period</strong></p>
+      <p style="margin-top: 8px;">When you request deletion, your account enters a 7-day waiting period. During this time, you can cancel the deletion and restore your account. After 7 days, your account will be permanently deleted.</p>
     </div>
 
     <p>
@@ -146,11 +168,13 @@
       <ol>
         <li>Open the <strong>MazadO₂</strong> app</li>
         <li>Tap your <strong>profile avatar</strong> (top-right corner)</li>
-        <li>Scroll down to <strong>Quick Links</strong></li>
+        <li>Go to <strong>Settings</strong></li>
         <li>Tap <strong>"Delete Account"</strong></li>
-        <li>Follow the on-screen instructions to confirm deletion</li>
+        <li>Type <strong>"DELETE"</strong> to confirm</li>
+        <li>Review the grace period information</li>
+        <li>Tap <strong>"Request Account Deletion"</strong></li>
       </ol>
-      <p><em>Note: You will need to type "DELETE" to confirm the action.</em></p>
+      <p><em>Your account will be scheduled for deletion in 7 days. You can cancel anytime before then by returning to the Delete Account screen.</em></p>
     </div>
 
     <h2>Option 2: Request Deletion via Email</h2>
@@ -159,7 +183,7 @@
 
     <div class="contact-box">
       <p><strong>Send an email to:</strong></p>
-      <p><a href="mailto:support@mazado2.com">support@mazado2.com</a></p>
+      <p><a href="mailto:support@mazado.ae">support@mazado.ae</a></p>
       <p style="margin-top: 12px;"><strong>Include in your email:</strong></p>
       <ul style="margin-left: 20px; margin-top: 8px;">
         <li>Subject: "Account Deletion Request"</li>
@@ -168,29 +192,50 @@
         <li>Reason for deletion (optional)</li>
       </ul>
       <p style="margin-top: 12px; font-size: 14px; color: #6B7F78;">
-        We will process your request within <strong>7 business days</strong> and send you a confirmation email once your account has been deleted.
+        We will initiate the deletion process within <strong>7 business days</strong>. Your account will enter a 7-day grace period, after which it will be permanently deleted. You will receive a confirmation email with your scheduled deletion date.
       </p>
     </div>
 
-    <h2>What Data Will Be Deleted?</h2>
+    <h2>Canceling Your Deletion Request</h2>
 
-    <p>When you delete your account, the following data will be permanently removed:</p>
+    <p>Changed your mind? You can cancel your deletion request anytime within the 7-day grace period:</p>
+    <ul>
+      <li><strong>In the app:</strong> Go to Settings → Delete Account and tap "Cancel Account Deletion"</li>
+      <li><strong>Via email:</strong> Send an email to <a href="mailto:support@mazado.ae">support@mazado.ae</a> with subject "Cancel Account Deletion"</li>
+    </ul>
+    <p><em>After the 7-day grace period expires, deletion cannot be cancelled or reversed.</em></p>
+
+    <h2>What Happens During the Grace Period?</h2>
+
+    <p>While your account is pending deletion:</p>
+    <ul>
+      <li>Your listings will be hidden from the marketplace</li>
+      <li>You can still log in and browse</li>
+      <li>You can cancel deletion at any time</li>
+      <li>A banner will remind you of the scheduled deletion date</li>
+    </ul>
+
+    <h2>What Data Will Be Deleted (After 7 Days)?</h2>
+
+    <p>When the grace period ends, the following data will be permanently removed:</p>
     <ul>
       <li>Your profile information (name, bio, phone number, email)</li>
       <li>Your profile photo and all listing images</li>
-      <li>All your active and inactive listings</li>
+      <li>All your listings (active, sold, and unlisted)</li>
       <li>Your messages and conversation history</li>
+      <li>Your notifications</li>
       <li>Your authentication credentials</li>
     </ul>
 
     <h2>What Data We Retain (Anonymized)</h2>
 
-    <p>For legal, environmental tracking, and platform integrity purposes, we retain the following <strong>anonymized</strong> data:</p>
+    <p>For UAE VAT compliance (5-year requirement) and environmental tracking, we retain the following <strong>anonymized</strong> data:</p>
     <ul>
-      <li>Transaction records (your identity is removed, but CO₂ savings remain in platform totals)</li>
-      <li>Aggregated platform statistics (e.g., total items saved, total CO₂ reduced)</li>
+      <li><strong>Transaction records</strong> — Your identity is removed, but transaction details are kept for tax compliance</li>
+      <li><strong>CO₂ savings</strong> — Your contributions to environmental impact remain in platform statistics</li>
+      <li><strong>Abuse reports</strong> — If your account was reported for violations, those reports are retained for fraud prevention</li>
     </ul>
-    <p><em>This data cannot be traced back to you and is used solely for environmental impact reporting.</em></p>
+    <p><em>This anonymized data cannot be traced back to you and is retained solely for legal compliance and platform integrity.</em></p>
 
     <h2>Need Help?</h2>
 
@@ -200,7 +245,7 @@
 
     <div class="contact-box">
       <p><strong>Contact Support:</strong></p>
-      <p>Email: <a href="mailto:support@mazado2.com">support@mazado2.com</a></p>
+      <p>Email: <a href="mailto:support@mazado.ae">support@mazado.ae</a></p>
       <p style="margin-top: 8px; font-size: 14px; color: #6B7F78;">We typically respond within 24-48 hours.</p>
     </div>
 
@@ -209,6 +254,9 @@
       <p style="margin-top: 8px;">
         <a href="/privacy-policy.html" style="color: #2F7D5B; text-decoration: none;">Privacy Policy</a> |
         <a href="/terms.html" style="color: #2F7D5B; text-decoration: none;">Terms of Service</a>
+      </p>
+      <p style="margin-top: 16px; font-size: 12px;">
+        Compliant with Google Play Policy, UAE PDPL (Federal Decree-Law No. 45/2021), and UAE VAT requirements.
       </p>
     </div>
   </div>
